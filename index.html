@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>non sequitur</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        section{
+            padding: 60px 0;
+        }
+
+        @media (min-width: 768px) {
+            .news-input {
+                width: 50%;
+            }
+        }
+        body::before {
+            display: block;
+            content: '';
+        }
+    </style>
+    
+
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark opacity-75 py-3">
+        <div class="container">
+            <a href="#" class="navbar-brand"><span class="display-4" style="letter-spacing: 2cqh;"> non<span class="text-warning">s</span>equitur...</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">What You'll Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">Questions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#instructor" class="nav-link">Writers</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Showcase-->
+
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-start text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>A <span class="display-5 text-warning opacity-75">B</span>log <span class="text-warning display-5">for Eccentrics</span></h1>
+                    <p class="fw-lighter fst-italic opacity-50 my-4">
+                        I've got something to say. It's better to burn out than to fade away. Most people
+                        will tell you their bad intentions. You just have to listen to hear and not listen, waiting to speak.
+                        They usually do it with a smirk, masquerading as a smile, and you don't explicity fall for it, you 
+                        just close your mind to the obvious truth.
+                    </p>
+                    <button class="btn btn-light text-success mb-2" data-bs-toggle="modal" data-bs-target="#galaxy" data-bs-whatever= "info@nonsequitur.com">Enter the Galaxy's End</button>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="assets\undraw_through_the_park_.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--Newsletter-->
+
+    <section class="bg-primary opacity-50 p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="display-6 mb-3 md-md-0">All It Takes Is A Wonder...</h3>
+                <div class="input-group news-input">
+                    <input type="text" class="form-control"
+                    placeholder="username@email.com" aria-label="username@email.com"
+                    aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary btn-dark btn-lg fw-bold" type="button" id="button-addon2">Submit</button>
+                </div>
+            </div>           
+        </div>
+    </section>
+
+    <!--Boxes-->
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                           <div class="h1 mb-3 mt-2">
+                                <i class="bi bi-cup-hot-fill" style="font-size: 4rem;"></i>
+                            </div>
+                            <h3 class="card-title mb-3 display-6">Caffeinated Keythoughts</h3>
+                            <p class="card-text fw-lighter mb-3">
+                                Four cups in and ready to sleep at 10 in the am. How do the rest of you do this lifetime?<br>Oh yeah! In denial and inebriated.
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                           <div class="h1 mb-3 mt-2">
+                            <i class="bi bi-camera-reels-fill" style="font-size: 4rem;"></i>
+                            </div>
+                            <h3 class="card-title mb-2 display-6">Camera<br>not  SHY</h3>
+                            <p class="card-text fw-lighter mb-3">
+                                For some reason, we're still writing when we all know you've stopped reading, 
+                                and now you're just waiting for the 24 frames to keep clicking.
+                            </p>
+                            <a href="#" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                           <div class="h1 mb-3 mt-2">
+                            <i class="bi bi-earbuds" style="font-size: 4rem;"></i>
+                            </div>
+                            <h3 class="card-title mb-3 display-6">Hear me oh<br>dumbass!</h3>
+                            <p class="card-text fw-lighter mb-3">
+                                Just how long, and how many times are we supposed to yell,
+                                "On your left, coming through." Fair warning folks. It's elbows time.
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Learn Sections-->
+
+    <section class="p-5" id="learn">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="assets\undraw_flowers.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md p-5 text-end">
+                    <h2>Find Your Own Tangent</h2>
+                    <p class="lead">
+                        I didn't hate the movie, "Inception", because hate is too strong a word to describe what was
+                        just a lack of interest for me. There is one take-away though that stuck with me. It was that of planting an idea into the subconscious. A germ. And, watching someone else running away with it.<br>
+                        This is what non sequitur is. A hodge-podge of ideas, of tangents and asides that may lead you to nowhere or somewhere you never
+                        thought you'd go.
+                    </p>
+                    <a href="#" class="btn btn-light mt-3"><i class="bi bi-arrow-return-right"></i> Read more</a>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5 bg-dark text-light" id="learn">
+        <div class="container">
+            <div class="row align-items-center justify-content-between g-5">
+                <div class="col-md p-5">
+                    <h2>You Don't Have to Learn, Just Ingest</h2>
+                    <p class="lead">
+                        Maybe, you'll find that one topic that points you in the direction you've long looked for. Or, maybe you won't
+                        find much at all. But, you'll be back, because you can. And, because you'll want to.
+                    </p>
+                    <a href="#" class="btn btn-light mt-3"><i class="bi bi-arrow-return-right"></i> Read more</a>
+                </div>
+                <div class="col-md">
+                    <img src="assets\undraw_nature.svg" class="img-fluid w-75" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Question Accordion-->
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+
+            <div class="accordion accordion-flush p-5" id="questions">
+
+                <!--Item 1-->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one" aria-expanded="false" aria-controls="flush-collapseOne">
+                      Where's the edge of the galaxy?
+                    </button>
+                  </h2>
+                  <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, excepturi aperiam non et doloremque totam distinctio eum quae voluptate officia dignissimos veritatis animi beatae voluptates molestias harum numquam recusandae sed soluta nisi accusamus debitis. Voluptatibus necessitatibus dicta, saepe in aperiam consequuntur deserunt nulla eligendi vel, vitae iusto explicabo non earum!</div>
+                  </div>
+                </div>
+                <!--Item 2-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two" aria-expanded="false" aria-controls="flush-collapseOne">
+                        How long will it take to get there?
+                      </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                      <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, excepturi aperiam non et doloremque totam distinctio eum quae voluptate officia dignissimos veritatis animi beatae voluptates molestias harum numquam recusandae sed soluta nisi accusamus debitis. Voluptatibus necessitatibus dicta, saepe in aperiam consequuntur deserunt nulla eligendi vel, vitae iusto explicabo non earum!</div>
+                    </div>
+                </div>
+                <!--Item 3-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Is it in color?
+                      </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                      <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, excepturi aperiam non et doloremque totam distinctio eum quae voluptate officia dignissimos veritatis animi beatae voluptates molestias harum numquam recusandae sed soluta nisi accusamus debitis. Voluptatibus necessitatibus dicta, saepe in aperiam consequuntur deserunt nulla eligendi vel, vitae iusto explicabo non earum!</div>
+                    </div>
+                </div>
+                <!--Item 4-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Am I asleep or am I dreaming?
+                      </button>
+                    </h2>
+                    <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#questions">
+                      <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, excepturi aperiam non et doloremque totam distinctio eum quae voluptate officia dignissimos veritatis animi beatae voluptates molestias harum numquam recusandae sed soluta nisi accusamus debitis. Voluptatibus necessitatibus dicta, saepe in aperiam consequuntur deserunt nulla eligendi vel, vitae iusto explicabo non earum!</div>
+                    </div>
+                </div>
+                <!--Item 1-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-five" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Is this the end of the universe?
+                      </button>
+                    </h2>
+                    <div id="question-five" class="accordion-collapse collapse" data-bs-parent="#questions">
+                      <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, excepturi aperiam non et doloremque totam distinctio eum quae voluptate officia dignissimos veritatis animi beatae voluptates molestias harum numquam recusandae sed soluta nisi accusamus debitis. Voluptatibus necessitatibus dicta, saepe in aperiam consequuntur deserunt nulla eligendi vel, vitae iusto explicabo non earum!</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Instructor-->
+    <section id="instructor" class="p-5 bg-secondary">
+        <div class="container">
+            <h2 class="text-center text-white">Our Writers</h2>
+            <p class="lead text-center text-white mb-5">Just remember, they lie to tell you the truth.</p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">June July</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quibusdam fuga exercitationem, eum inventore labore.</p>
+                            <a href="#"><span style="font-size: 3rem;"><i class="bi bi-twitter text-dark mx-1"></i></span></a>
+                            <a href="#"><span style="font-size: 3rem;"><i class="bi bi-instagram text-dark mx-1"></i></span></a>
+                            <a href="#"><span style="font-size: 3rem;"><i class="bi bi-linkedin text-dark mx-1"></i></span></a>              
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Aaron March</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quibusdam fuga exercitationem, eum inventore labore.</p>
+                            <a href="#"><span style="font-size: 3rem;"><i class="bi bi-twitter text-dark mx-1"></i></span></a>
+                            <a href="#"><span style="font-size: 3rem;"><i class="bi bi-facebook text-dark mx-1"></i></span></a>
+                            <a href="#"><span style="font-size: 3rem;"><i class="bi bi-linkedin text-dark mx-1"></i></span></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/10.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">January Auguste</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quibusdam fuga exercitationem, eum inventore labore.</p>
+                            <a href="#"><span style="font-size: 3rem;"><i class="bi bi-twitter text-dark mx-1"></i></span></a>
+                            <a href="#"><span style="font-size: 3rem;"><i class="bi bi-instagram text-dark mx-1"></i></span></a>
+                            <a href="#"><span style="font-size: 3rem;"><i class="bi bi-linkedin text-dark mx-1"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/10.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Otto December</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quibusdam fuga exercitationem, eum inventore labore.</p>
+                            <a href="#"><span style="font-size: 3rem;"><i class="bi bi-twitter text-dark mx-1"></i></span></a>
+                            <a href="#"><span style="font-size: 3rem;"><i class="bi bi-facebook text-dark mx-1"></i></span></a>
+                            <a href="#"><span style="font-size: 3rem;"><i class="bi bi-linkedin text-dark mx-1"></i></span></a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ContactMap-->
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-8">
+                    <h2 class="text-center mb-4">Contact Info</h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location:</span> You'll find it eventually.
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Office:</span> 333.7989
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main CoffeeHouse:</span> 343.8675
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email:</span> info@nonsequitur.com
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Emergency Only:</span> 345.6789
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1935.3967195575335!2d-61.53865903484447!3d10.6726609685794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c360967d7ae5ba7%3A0xd5ae18aeecd4b0dc!2sWiPrintOnIt!5e0!3m2!1sen!2stt!4v1716699363625!5m2!1sen!2stt" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2024 nonsequitur...</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i></a>
+        </div>
+    </footer>
+
+    <!--Modal-->
+
+    <div class="modal fade" id="galaxy" tabindex="-1" aria-labelledby="galaxyLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-1" id="galaxyLabel">New message</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Recipient:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Message:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   
+</body>
+</html>
